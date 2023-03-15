@@ -1,0 +1,10 @@
+div.container {
+  border-radius: 5px;
+  border: solid;
+  border-color: rgb(230, 207, 5);
+  background-color: rgba(247, 247, 167, 0.986);
+  padding: 20px;
+  margin-top: -312px;
+  margin-left: 490px;
+  margin-right: 264px;
+}

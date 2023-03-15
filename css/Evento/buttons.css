@@ -1,0 +1,50 @@
+.crear {
+    background-color: #3497e9;
+    border: none;
+    color: white;
+    padding: 15px 72px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 47px 19px 10px;
+    cursor: pointer;
+  }
+
+  .listar {
+    background-color: #3497e9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 72px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 47px 19px 10px;
+    cursor: pointer;
+  }
+  .modificar{
+    background-color: #3497e9;/* Green */
+    border: none;
+    color: white;
+    padding: 15px 59px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 47px 19px 10px;
+    cursor: pointer;
+  }
+
+  .eliminar{
+    background-color: #3497e9; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 63px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 47px 19px 10px;
+    cursor: pointer;
+  }
