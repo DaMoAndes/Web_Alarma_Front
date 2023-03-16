@@ -4,7 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/css/slideMain.css">
 <link rel="stylesheet" href="/css/Alarma/card.css">
-<link rel="stylesheet" href="/css/Alarma/buttons.css">
+<link rel="stylesheet" href="/css/Historial/buttons.css">
+<link rel="stylesheet" href="/css/Estadistica/container.css">
+<link rel="stylesheet" href="/css/componentes.css">
 <script src="/js/functions.js"></script>
 </head>
 <body>
@@ -19,14 +21,16 @@
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
  <!-- Add icon library -->
  
-<div class="row">
-    <div class="card">
-        <a href="/componentes/alarm/crear.html" class="crear">Crear</a><br>
-        <a href="/componentes/alarm/listar.html" class="listar">Listar</a><br>
-        <a href="/componentes/alarm/modificar.html" class="modificar">Modificar</a><br>
-        <a href="/componentes/alarm/eliminar.html" class="eliminar">Eliminar</a><br>
+ <div class="row">
+    <div class="container">
+        <p><strong>Historial</strong></p>
+        <br>
+        <br>
+        <br>
+        <img id="estadistica" src="/img/Historial.JPG">
+        
     </div>
-
+    <a id="evento_volver_btn" href="/componentes/historial/Historial.html" class="eliminar">Volver</a>
 </div>
 </body>
 </html> 

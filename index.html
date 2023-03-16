@@ -2,45 +2,33 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/slideMain.css">
+<link rel="stylesheet" href="/css/Alarma/card.css">
+<link rel="stylesheet" href="/css/Alarma/buttons.css">
+<link rel="stylesheet" href="/css/Alarma/container.css">
+<link rel="stylesheet" href="/css/componentes.css">
 <link rel="stylesheet" href="css/slideMain.css">
 <script src="js/functions.js"></script>
 </head>
 <body>
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/componentes/alarm/Alarm.html"><img src="/img/Alarma.png" id="itema">Alarmas</a>
+      <a href="/componentes/evento/Evento.html"><img src="/img/Evento.png" id="itema">Evento</a>
+      <a href="/componentes/estadisticas/Estadistica.html"><img src="/img/Estadisticas.png" id="itema">Estadisticas</a>
+      <a href="/componentes/historial/Historial.html"><img src="/img/History.png" id="itema">Historial</a>
+  </div>
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="/componentes/alarm/Alarm.html"><img src="img/Alarma.png" id="itema">Alarmas</a>
-  <a href="/componentes/evento/Evento.html"><img src="img/Evento.png" id="itema">Evento</a>
-  <a href="#"><img src="img/Estadisticas.png" id="itema">Estadisticas</a>
-  <a href="#"><img src="img/History.png" id="itema">Historial</a>
-</div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <!-- Add icon library -->
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-
-<label for="myCheck1">Checkbox 1:</label> 
-<label for="myCheck2">Checkbox 2:</label>
-<label for="myCheck2">Checkbox 3:</label>
-<input type="checkbox" id="myCheck1" class="myCheckbox" onclick="myFunction()">
-<input type="checkbox" id="myCheck2" class="myCheckbox" onclick="myFunction()">
-<input type="checkbox" id="myCheck3" class="myCheckbox" onclick="myFunction()">
-
-<p id="text" style="display:none">A checkbox is checked!</p>
-
-<script>
-function myFunction() {
-  var checkboxes = document.getElementsByClassName("myCheckbox");
-  var text = document.getElementById("text");
-  for (var i = 0; i < checkboxes.length; i++) {
-    if (checkboxes[i].checked == true) {
-      text.style.display = "block";
-      return; // Exit loop as soon as a checkbox is checked
-    }
-  }
-  // If no checkbox is checked, hide the text
-  text.style.display = "none";
-}
-</script>
-
-
+  <div class="row">
+      <div class="card">
+          <a href="componentes/alarm/crear.html" class="crear">Crear</a><br>
+          <a href="componentes/alarm/listar.html" class="listar">Listar</a><br>
+          <a href="componentes/alarm/modificar.html" class="modificar">Modificar</a><br>
+          <a href="componentes/alarm/eliminar.html" class="eliminar">Eliminar</a><br>
+      </div>
+  </div>
 </body>
 </html> 

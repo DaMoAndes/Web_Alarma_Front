@@ -1,17 +1,45 @@
-#hr{
-    width:108%;
+#hr {
+    width: 108%;
     margin-left: -21px;
     border-color: rgb(230, 207, 5);
 }
+
 #eliminar_Alarma {
     border-radius: 15px;
     background: #f1e046;
-    padding: 20px; 
+    padding: 20px;
     width: 110px;
     height: 5px;
-    margin-left: 71px;
+    margin-left: 163px;
     margin-top: -35px;
-    text-align:center ;
+    text-align: center;
+}
+
+#myCheck1 {
+    margin-left: 143px;
+    margin-top: -35px;
+}
+
+#myCheck2 {
+    margin-left: 143px;
+    margin-top: -35px;
+}
+
+#myCheck_modificar1 {
+    margin-left: 50px;
+    margin-top: -35px;
+}
+
+#myCheck_modificar2 {
+    margin-left: 50px;
+    margin-top: -35px;
+}
+
+
+#evento_conexion {
+    width: 108%;
+    margin-left: 313px;
+    margin-top: 1px;
 }
 
 #listar_Alarma {
@@ -28,13 +56,24 @@
 #modificar_Alarma {
     border-radius: 15px;
     background: #f1e046;
-    padding: 20px; 
+    padding: 20px;
     width: 110px;
     height: 5px;
     margin-left: 71px;
     margin-top: -35px;
-    text-align:center ;
-  }
+    text-align: center;
+}
+
+#modificar_Evento{
+    border-radius: 15px;
+    background: #4690f1;
+    padding: 20px;
+    width: 110px;
+    height: 5px;
+    margin-left: 71px;
+    margin-top: -35px;
+    text-align: center;
+}
 
 #crear_Evento {
     border-radius: 15px;
@@ -51,46 +90,104 @@
 #eliminar_Evento {
     border-radius: 15px;
     background: #6c8bf1;
-    padding: 20px; 
+    padding: 20px;
     width: 110px;
     height: 5px;
     margin-left: 71px;
     margin-top: -35px;
-    text-align:center ;
-  }
+    text-align: center;
+}
 
-  #listar_Evento {
+#listar_Evento {
     border-radius: 15px;
     background: #6c8bf1;
-    padding: 20px; 
+    padding: 20px;
     width: 110px;
     height: 5px;
     margin-left: 71px;
     margin-top: -35px;
-    text-align:center ;
-  }
+    text-align: center;
+}
 
-  #modificar_Alarma {
-    border-radius: 15px;
-    background: #6c8bf1;
-    padding: 20px; 
-    width: 110px;
-    height: 5px;
-    margin-left: 71px;
-    margin-top: -35px;
-    text-align:center ;
-  }
+#conexion {
+    width: 108%;
+    margin-left: 313px;
+    margin-top: -65px;
+}
 
-#hr{
-    width:108%;
+#conexion1 {
+    width: 108%;
+    margin-left: 313px;
+    margin-top: -60px;
+}
+
+#sonido_alarma {
+    width: 108%;
+    margin-left: 1px;
+    margin-top: -44px;
+}
+
+#hr {
+    width: 108%;
     margin-left: -21px;
     border-color: rgb(230, 207, 5);
+}
+
+/* Icon Alarma */
+#add {
+    width: 50px;
+    height: 50px;
+    margin-left: 210px;
+}
+
+#add1 {
+    width: 50px;
+    height: 49px;
+    margin-left: 205px;
+    margin-top: 59px;
+}
+
+#google {
+    width: 50px;
+    height: 50px;
+    margin-left: 375px;
+    margin-top: -51px;
+}
+
+#calendario {
+    width: 50px;
+    height: 50px;
+    margin-left: 375px;
+    margin-top: 10px;
+}
+
+#evento {
+    width: 50px;
+    height: 50px;
+    margin-left: 375px;
+}
+
+/*Eliminar boton*/
+
+#eliminar_btn {
+    margin-left: 664px;
+    margin-top: 45px;
+}
+
+#modificar_btn {
+    margin-left: 15px;
+    margin-top: 41px;
+}
+
+#eliminar_listar_btn {
+    margin-left: 664px;
+    margin-top: 45px;
 }
 
 
 /* CREAR ALARMA */
 .dropbtn_Alarma {
-    background-color:  #f1e046  ;
+    background-color: #f1e046;
     color: rgb(12, 12, 12);
     padding: 16px;
     font-size: 16px;
@@ -98,9 +195,15 @@
     cursor: pointer;
 }
 
+
 .dropdown_Alarma {
     position: relative;
     display: inline-block;
+}
+
+.dropdown_sonido {
+    margin-left: 17px;
+    margin-top: -7px;
 }
 
 .dropdown-content-Alarma {
@@ -135,7 +238,7 @@
 /* CREAR EVENTO */
 
 .dropbtn_Evento {
-    background-color:  #3770eb  ;
+    background-color: #3770eb;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -176,3 +279,37 @@
     background-color: #2012e2;
 }
 
+#listar {
+    width: 513px;
+    height: 175px;
+    margin-left: -10px;
+    margin-top: -42px;
+}
+#evento_volver_btn{
+    margin-left: 659px;
+    margin-top: 23px;
+}
+
+#eliminar_Evento {
+    border-radius: 15px;
+    background: #3770eb;
+    padding: 20px;
+    width: 110px;
+    height: 5px;
+    margin-left: 163px;
+    margin-top: -35px;
+    text-align: center;
+}
+
+#hr_evento {
+    width: 108%;
+    margin-left: -21px;
+    border-color: rgb(5, 76, 230);
+}
+
+#estadistica {
+    width: 513px;
+    height: 260px;
+    margin-left: 14px;
+    margin-top: -42px;
+  }
